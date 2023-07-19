@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="styles.css" />
 <?php
 include "connect.php";
 $sql = "SELECT * FROM tbl_product";
@@ -6,7 +6,7 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
   // output data of each row?>
-  <table class="table">
+  <table id="tb">
     <th> ชื่อ </th>
     <th> ราคา </th>
     <th> จำนวนของ </th>
@@ -36,3 +36,4 @@ mysqli_close($conn);
 
 
 ?>
+

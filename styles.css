@@ -1,0 +1,43 @@
+#tb{
+    border: solid 1px rgba(0, 0, 0, 0.333); 
+    width: 80%;
+}
+
+#tb ,th,tr,td{
+  border-bottom: 1px solid #ccddff;
+  padding: 15px 20px;
+}
+
+#tb tr:hover{
+    background-color: #65e9fd;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px dashed rgb(77, 60, 14);
+  }
+
+.bt {
+    background-color: blue;
+    border: none;
+    color: azure;
+    padding: 20px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.bt:hover{
+    background-color: rgb(217, 127, 255);
+}
+
+.ct{
+    max-width: 800px;
+    margin: auto;
+}
